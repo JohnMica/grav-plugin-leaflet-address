@@ -1,6 +1,6 @@
 enabled: true
 address:
-  country:
+  country: "United Kingdom"
   name:
   address:
   zip:
@@ -12,6 +12,8 @@ address:
 leaflet:
   zoom: 13
   icon: Red
-  coordinates: 
+  coordinates:
+    - "-1.5133809052877818"
+    - "52.4036001"
 cdn: true
 provider: OpenStreetMap.Mapnik

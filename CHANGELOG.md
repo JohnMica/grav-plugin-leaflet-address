@@ -1,36 +1,14 @@
-# v1.0.5
-## 04/24/2019
-
-1. [](#new)
-    * Added translation (IT)
-1. [](#bugfix)
-    * Seems onAdminTwigTemplatePaths does not work anymore
-    * Removed dump on plugin config page (admin)
-
-# v1.0.4
-## 04/22/2019
-
-1. [](#bugfix)
-    * Grav 1.6 YAML has stricter parsing
-    * Removed commented out code
-
 # v1.0.3
-## 04/22/2019
-
-1. [](#new)
-    * Limit zoom to map provider max zoom
+[Unreleased]
 1. [](#bugfix)
-    * I didn't updated the version number in blueprints.yaml :/
-    * Link to [README.md](README.md) now points to master branch
-    * Removed footnotes to comply with changelog format
-    * Meets the rules of markdownlint MD022, MD006, MD032, MD040
+    * Use issues to request features or report bugs
 
-# v1.0.2
+# [v1.0.2]
 ## 04/15/2019
 1. [](#bugfix)
     * Wrong comparison link in the changelog
 
-# v1.0.1
+# [v1.0.1]
 ## 04/15/2019
 
 1. [](#new)
@@ -41,7 +19,7 @@
    * Missing Leaflet-providers, OpenStreetMap and map providers in credits
    * Default marker icon is red
 
-# v0.1.3
+# [v0.1.3]
 ## 04/14/2019
 
 1. [](#new)
@@ -68,3 +46,8 @@
 
 1. [](#new)
     * ChangeLog started...
+
+
+[v1.0.2]: https://github.com/foxfabi/grav-plugin-leaflet-address/compare/v1.0.1...v1.0.2
+[v1.0.1]: https://github.com/foxfabi/grav-plugin-leaflet-address/compare/v0.1.3...v1.0.1
+[v0.1.3]: https://github.com/foxfabi/grav-plugin-leaflet-address/compare/v0.1.2...v0.1.3

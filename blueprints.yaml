@@ -1,5 +1,5 @@
 name: Leaflet Address
-version: 1.0.5
+version: 1.0.1
 description: With the Leaflet address plugin you can easily show an address as text and on a leaflet map.
 icon: map
 author:
@@ -9,7 +9,7 @@ homepage: https://github.com/foxfabi/grav-plugin-leaflet-address
 demo: 
 keywords: grav, plugin, leaflet, map, address
 bugs: https://github.com/foxfabi/grav-plugin-leaflet-address/issues
-docs: https://github.com/foxfabi/grav-plugin-leaflet-address/blob/master/README.md
+docs: https://github.com/foxfabi/grav-plugin-leaflet-address/blob/develop/README.md
 license: MIT
 
 dependencies:
@@ -48,8 +48,6 @@ form:
 
     provider:
       type: select
-      id: map-provider
-      classes: provider-zoom
       label: PLUGIN_LEAFLET_ADDRESS.FIELDS.MAP_PROVIDER.LABEL
       help: PLUGIN_LEAFLET_ADDRESS.FIELDS.MAP_PROVIDER.HELP
       default: OpenStreetMap.Mapnik
@@ -57,13 +55,11 @@ form:
 
     leaflet.zoom:
       type: number
-      id: map-zoom
-      classes: provider-zoom
       label: PLUGIN_LEAFLET_ADDRESS.FIELDS.ZOOM_LEVEL.LABEL
       default: 13
       validate:
         min: 1
-        max: 20
+        max: 19
 
     leaflet.icon:
       type: select
